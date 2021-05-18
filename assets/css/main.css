@@ -3094,7 +3094,7 @@ input, select, textarea {
 				font-size: 2.8em;
 			}
 
-			#header.alt > * {
+			/* #header.alt > * {
 				-moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
@@ -3117,7 +3117,7 @@ input, select, textarea {
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
-			}
+			} */
 
 				#header.alt .logo img {
 					display: block;
@@ -3198,7 +3198,7 @@ input, select, textarea {
 
 		}
 
-		body.is-preload #header.alt > * {
+		/* body.is-preload #header.alt > * {
 			opacity: 0;
 		}
 
@@ -3207,7 +3207,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.8) rotate(-30deg);
 			-ms-transform: scale(0.8) rotate(-30deg);
 			transform: scale(0.8) rotate(-30deg);
-		}
+		} */
 
 /* Nav */
 
