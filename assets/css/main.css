@@ -2779,7 +2779,7 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: rgba(255, 255, 255, 0.35);
+		border-color: #000000;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
@@ -2791,15 +2791,15 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: rgba(255, 255, 255, 0.35);
+		border-bottom-color: #000000;
 	}
 
 	table tfoot {
-		border-top-color: rgba(255, 255, 255, 0.35);
+		border-top-color: #000000;
 	}
 
 	table.alt tbody tr td {
-		border-color: rgba(255, 255, 255, 0.35);
+		border-color: #000000;
 	}
 
 /* Features */
