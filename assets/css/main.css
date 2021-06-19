@@ -2717,7 +2717,6 @@ input, select, textarea {
 	}
 
 /* Table */
-
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -2730,8 +2729,8 @@ input, select, textarea {
 
 		table tbody tr {
 			border: solid 1px;
-			border-left: 0;
-			border-right: 0;
+			/*border-left: 0;
+			border-right: 0;*/
 		}
 
 		table td {
@@ -2759,8 +2758,8 @@ input, select, textarea {
 
 			table.alt tbody tr td {
 				border: solid 1px;
-				border-left-width: 0;
-				border-top-width: 0;
+				/*border-left-width: 0;
+				border-top-width: 0;*/
 			}
 
 				table.alt tbody tr td:first-child {
@@ -3565,28 +3564,29 @@ input, select, textarea {
 		}
 
 		#main table tbody tr {
-			border-color: #dddddd;
+			border-color: #000000;
 		}
-
+/*
 			#main table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(222, 222, 222, 0.25);
-			}
+			}*/
 
 		#main table th {
 			color: #636363;
 		}
 
 		#main table thead {
-			border-bottom-color: #dddddd;
+			border-bottom-color: #000000;
 		}
 
 		#main table tfoot {
-			border-top-color: #dddddd;
+			border-top-color: #000000;
 		}
 
-		#main table.alt tbody tr td {
+		/*#main table.alt tbody tr td {
 			border-color: #dddddd;
-		}
+		}*/
+
 
 		#main .spotlight .image {
 			border-color: #dddddd;
